@@ -23,8 +23,6 @@ const Epic = () => {
         })()
     }, [])
         
-    const [res, setRes] = React.useState([])
-    
     const [open, setOpen] = React.useState(false)
         
     const [hero1, setHero1] = React.useState(null);
@@ -35,22 +33,24 @@ const Epic = () => {
     const [inputHero3, setInputHero3] = React.useState('');
     
     // Modal variables
-    const [defHero1, setDefHero1] = React.useState(arr[0]);
-    const [defHero2, setDefHero2] = React.useState(arr[0]);
-    const [defHero3, setDefHero3] = React.useState(arr[0]);
+    const [defHero1, setDefHero1] = React.useState(null);
+    const [defHero2, setDefHero2] = React.useState(null);
+    const [defHero3, setDefHero3] = React.useState(null);
     const [inputDefHero1, setInputDefHero1] = React.useState('');
     const [inputDefHero2, setInputDefHero2] = React.useState('');
     const [inputDefHero3, setInputDefHero3] = React.useState('');
     
-    const [atkHero1, setAtkHero1] = React.useState(arr[0]);
-    const [atkHero2, setAtkHero2] = React.useState(arr[0]);
-    const [atkHero3, setAtkHero3] = React.useState(arr[0]);
+    const [atkHero1, setAtkHero1] = React.useState(null);
+    const [atkHero2, setAtkHero2] = React.useState(null);
+    const [atkHero3, setAtkHero3] = React.useState(null);
     const [inputAtkHero1, setInputAtkHero1] = React.useState('');
     const [inputAtkHero2, setInputAtkHero2] = React.useState('');
     const [inputAtkHero3, setInputAtkHero3] = React.useState('');
     
     const [battleRes, setBattleRes] = React.useState('W');
     const [notes, setNotes] = React.useState('');
+    
+    const [res, setRes] = React.useState([])
     
     
     const copy = () => {
@@ -59,12 +59,24 @@ const Epic = () => {
         setDefHero3(hero3);
     }
     
+    const remove = (key, idx) => {
+        const storage = JSON.parse(localStorage.getItem('data'))
+        if (storage[[hero1.name, hero2.name, hero3.name].sort((a, b) => a > b ? 1 : a < b ? -1 : 0).join(',')][key].length === 1) {
+            delete storage[[hero1.name, hero2.name, hero3.name].sort((a, b) => a > b ? 1 : a < b ? -1 : 0).join(',')][key]
+        } else {
+            storage[[hero1.name, hero2.name, hero3.name].sort((a, b) => a > b ? 1 : a < b ? -1 : 0).join(',')][key].splice(idx, 1)
+        }
+        localStorage.setItem('data', JSON.stringify(storage))
+        search()
+    }
+    
     const search = () => {
         if (hero1 === null || hero2 === null || hero3 === null) return;
         const tmp = [hero1.name, hero2.name, hero3.name]
         tmp.sort((a, b) => a > b ? 1 : a < b ? -1 : 0)
         const str = tmp.join(',')
         const storage = JSON.parse(localStorage.getItem('data'));
+        console.log(storage[str])
         setRes(storage[str])
     }
     
@@ -88,6 +100,7 @@ const Epic = () => {
             storage[defStr][atkStr].push(result)
         }
         localStorage.setItem('data', JSON.stringify(storage))
+        search()
     }
     
     return (
@@ -259,6 +272,13 @@ const Epic = () => {
                                                     />
                                                 </ListItemIcon>
                                                 <ListItemText primary={o.notes}/>
+                                                <Button
+                                                    variant='contained'
+                                                    color='error'
+                                                    onClick={() => {remove(key, idx)}}
+                                                >
+                                                    Delete
+                                                </Button>
                                             </ListItem>
                                         </List>)
                                     })}
