@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/epic/static/css/main.073c9b0a.css",
+    "main.js": "/epic/static/js/main.f98bf945.js",
+    "static/js/787.95c885b5.chunk.js": "/epic/static/js/787.95c885b5.chunk.js",
+    "index.html": "/epic/index.html",
+    "main.073c9b0a.css.map": "/epic/static/css/main.073c9b0a.css.map",
+    "main.f98bf945.js.map": "/epic/static/js/main.f98bf945.js.map",
+    "787.95c885b5.chunk.js.map": "/epic/static/js/787.95c885b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.f98bf945.js"
+  ]
+}
