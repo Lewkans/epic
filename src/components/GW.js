@@ -5,7 +5,7 @@ import battleLoss from '../images/battle_pvp_icon_lose.png';
 import { Accordion, AccordionDetails, AccordionSummary, Autocomplete, Box, Button, Container, FormControl, FormControlLabel, FormLabel, Grid, Link, List, ListItem, ListItemIcon, ListItemText, Modal, Radio, RadioGroup, TextField, Typography } from '@mui/material';
 import { ExpandMoreOutlined } from '@mui/icons-material';
 
-const Epic = () => {
+const GW = () => {
     const [data, setData] = React.useState({})
     const [arr, setArr] = React.useState([])
     
@@ -583,4 +583,4 @@ const Epic = () => {
     )
 }
 
-export default Epic;
+export default GW;

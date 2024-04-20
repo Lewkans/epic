@@ -1,10 +1,10 @@
 import './App.css';
-import Epic from './components/Epic';
+import GW from './components/GW';
 
 function App() {
   return (
     <>
-      <Epic />
+      <GW />
     </>
   );
 }
