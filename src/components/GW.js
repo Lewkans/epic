@@ -269,6 +269,7 @@ const GW = () => {
                                                     <img
                                                         src={o.result === 'W' ? battleWin : o.result === 'L' ? battleLoss : battleDraw}
                                                         width={40}
+                                                        alt={o.result}
                                                     />
                                                 </ListItemIcon>
                                                 <ListItemText primary={o.notes}/>
