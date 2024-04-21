@@ -105,7 +105,7 @@ const GW = () => {
     
     return (
         <>
-            <Container sx={{mt: 10}}>
+            <Container sx={{mt: 5}}>
                 <Typography variant='h3'>E7 GW Self-Tracker</Typography>
                 <Grid container spacing={2}>
                     <Grid item xs>
