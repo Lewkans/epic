@@ -120,6 +120,7 @@ const GS = () => {
         <>
             <Container sx={{mt: 5}}>
               <Typography variant='h3'>E7 Gear Checker</Typography>
+              <Typography variant='subtitle1'>Not affiliated with Fribbels</Typography>
               {showAlert &&
                 <Alert
                   severity='error'
@@ -135,11 +136,12 @@ const GS = () => {
                   startIcon={<CloudUpload />}
                   onChange={uploadFile}
                 >
-                  Upload gear.txt
+                  Upload gear.txt (Fribbels)
                   <VisuallyHiddenInput
                     type="file"
                   />
                 </Button>
+                <Typography variant='subtitle1'>You can find gear.txt at C:\Users\NAME\Documents\FribbelsOptimizerSaves</Typography>
                 <Stack
                   spacing={2}
                 >

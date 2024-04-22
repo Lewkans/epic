@@ -6,7 +6,7 @@ import GS from './components/GS';
 
 function App() {
   const [tab, setTab] = React.useState(0)
-  const [value, setValue] = React.useState('GW')
+  const [value, setValue] = React.useState('GS')
   
   const handleChange = (e, newValue) => {
     setTab(newValue)
@@ -15,14 +15,14 @@ function App() {
   return (
     <>
       <Tabs value={tab} onChange={handleChange}>
-        <Tab label="Guild War" id="GW" />
         <Tab label="Gear Score" id="GS" />
+        <Tab label="Guild War" id="GW" />
       </Tabs>
-      {value === 'GW' &&
-        <GW />
-      }
       {value === 'GS' &&
         <GS />
+      }
+      {value === 'GW' &&
+        <GW />
       }
     </>
   );
