@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/epic/static/css/main.f855e6bc.css",
-    "main.js": "/epic/static/js/main.9c953a07.js",
+    "main.js": "/epic/static/js/main.f61a896a.js",
     "static/js/453.c2d74ecf.chunk.js": "/epic/static/js/453.c2d74ecf.chunk.js",
     "index.html": "/epic/index.html",
     "main.f855e6bc.css.map": "/epic/static/css/main.f855e6bc.css.map",
-    "main.9c953a07.js.map": "/epic/static/js/main.9c953a07.js.map",
+    "main.f61a896a.js.map": "/epic/static/js/main.f61a896a.js.map",
     "453.c2d74ecf.chunk.js.map": "/epic/static/js/453.c2d74ecf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.9c953a07.js"
+    "static/js/main.f61a896a.js"
   ]
 }
