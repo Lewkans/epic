@@ -100,12 +100,12 @@ const GS = () => {
                   startIcon={<CloudUpload />}
                   onChange={uploadFile}
                 >
-                  Upload gear.txt (Fribbels)
+                  Upload autosave.json (Fribbels)
                   <VisuallyHiddenInput
                     type="file"
                   />
                 </Button>
-                <Typography variant='subtitle1'>You can find gear.txt at C:\Users\NAME\Documents\FribbelsOptimizerSaves</Typography>
+                <Typography variant='subtitle1'>You can find autosave.json at C:\Users\NAME\Documents\FribbelsOptimizerSaves</Typography>
                 <Stack
                   spacing={2}
                 >
