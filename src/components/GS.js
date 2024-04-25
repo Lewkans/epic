@@ -95,7 +95,7 @@ const GS = () => {
       const sorted = data.sort((a, b) => a.reforgedWss - b.reforgedWss);
       const mid = Math.floor(data.length / 2);
       if (data.length % 2 === 0) {
-        return (sorted[mid - 1] + sorted[mid]) / 2
+        return (sorted[mid - 1].reforgedWss + sorted[mid].reforgedWss) / 2
       }
       return sorted[mid].reforgedWss;
     }
