@@ -92,6 +92,9 @@ const GS = () => {
     }
     
     const calcMedianGS = () => {
+      if (data.length <= 1) {
+        return 0
+      }
       const sorted = data.sort((a, b) => a.reforgedWss - b.reforgedWss);
       const mid = Math.floor(data.length / 2);
       if (data.length % 2 === 0) {
@@ -183,98 +186,96 @@ const GS = () => {
                   <Stack
                     spacing={2}
                   >
-                    {data &&
-                      <>
-                        <Typography
-                          variant='h5'
-                        >
-                          Total Number of Gear: {data.length}
-                        </Typography>
-                        <Typography
-                          variant='h5'
-                        >
-                          Lvl 88/90 Gear: {data.reduce((total, item) => ((item.level === 88 || item.level === 90) ? total + 1 : total), 0)}
-                        </Typography>
-                        <Typography
-                          variant='h5'
-                        >
-                          20+ Speed Speed Set Gear: {noSpeed(20)}
-                        </Typography>
-                        <Typography
-                          variant='h5'
-                        >
-                          20+ Speed Non-Speed Set Gear: {noSpeedN(20)}
-                        </Typography>
-                        <Typography
-                          variant='h5'
-                        >
-                          <TextField
-                            type='number'
-                            value={speedS}
-                            onChange={(e) => setSpeedS(e.target.value)}
-                            InputProps={{
-                              inputProps:{
-                                min: 1,
-                                max: 30,
-                                step: 1
-                              },
-                              style: {
-                                fontSize: 20,
-                                width: 100,
-                              }
-                            }}
-                            size='small'
-                          /> + Speed Speed Set Gear: {noSpeed(parseInt(speedS))}
-                        </Typography>
-                        <Typography
-                          variant='h5'
-                        >
-                          <TextField
-                            type='number'
-                            value={speedN}
-                            onChange={(e) => setSpeedN(e.target.value)}
-                            InputProps={{
-                              inputProps:{
-                                min: 1,
-                                max: 30,
-                                step: 1
-                              },
-                              style: {
-                                fontSize: 20,
-                                width: 100,
-                              }
-                            }}
-                            size='small'
-                          /> + Speed Non-Speed Set Gear: {noSpeedN(parseInt(speedN))}
-                        </Typography>
-                        <Typography
-                          variant='h5'
-                        >
-                          70+ GS Gear: {noGS(70)}
-                        </Typography>
-                        <Typography
-                          variant='h5'
-                        >
-                          <TextField
-                            type='number'
-                            value={gs}
-                            onChange={(e) => setGs(e.target.value)}
-                            InputProps={{
-                              inputProps:{
-                                min: 50,
-                                max: 100,
-                                step: 1
-                              },
-                              style: {
-                                fontSize: 20,
-                                width: 100,
-                              }
-                            }}
-                            size='small'
-                          /> + GS Gear: {noGS(gs)}
-                        </Typography>
-                      </>
-                    }
+                    <>
+                      <Typography
+                        variant='h5'
+                      >
+                        Total Number of Gear: {data.length}
+                      </Typography>
+                      <Typography
+                        variant='h5'
+                      >
+                        Lvl 88/90 Gear: {data.reduce((total, item) => ((item.level === 88 || item.level === 90) ? total + 1 : total), 0)}
+                      </Typography>
+                      <Typography
+                        variant='h5'
+                      >
+                        20+ Speed Speed Set Gear: {noSpeed(20)}
+                      </Typography>
+                      <Typography
+                        variant='h5'
+                      >
+                        20+ Speed Non-Speed Set Gear: {noSpeedN(20)}
+                      </Typography>
+                      <Typography
+                        variant='h5'
+                      >
+                        <TextField
+                          type='number'
+                          value={speedS}
+                          onChange={(e) => setSpeedS(e.target.value)}
+                          InputProps={{
+                            inputProps:{
+                              min: 1,
+                              max: 30,
+                              step: 1
+                            },
+                            style: {
+                              fontSize: 20,
+                              width: 100,
+                            }
+                          }}
+                          size='small'
+                        /> + Speed Speed Set Gear: {noSpeed(parseInt(speedS))}
+                      </Typography>
+                      <Typography
+                        variant='h5'
+                      >
+                        <TextField
+                          type='number'
+                          value={speedN}
+                          onChange={(e) => setSpeedN(e.target.value)}
+                          InputProps={{
+                            inputProps:{
+                              min: 1,
+                              max: 30,
+                              step: 1
+                            },
+                            style: {
+                              fontSize: 20,
+                              width: 100,
+                            }
+                          }}
+                          size='small'
+                        /> + Speed Non-Speed Set Gear: {noSpeedN(parseInt(speedN))}
+                      </Typography>
+                      <Typography
+                        variant='h5'
+                      >
+                        70+ GS Gear: {noGS(70)}
+                      </Typography>
+                      <Typography
+                        variant='h5'
+                      >
+                        <TextField
+                          type='number'
+                          value={gs}
+                          onChange={(e) => setGs(e.target.value)}
+                          InputProps={{
+                            inputProps:{
+                              min: 50,
+                              max: 100,
+                              step: 1
+                            },
+                            style: {
+                              fontSize: 20,
+                              width: 100,
+                            }
+                          }}
+                          size='small'
+                        /> + GS Gear: {noGS(gs)}
+                      </Typography>
+                    </>
                   </Stack>
                 </Grid>
                 <Grid item xs={6}>
@@ -332,27 +333,27 @@ const GS = () => {
                     <Typography
                       variant='h5'
                     >
-                      Max Attack %: {Math.max(...(data.map((weapon) => (weapon.reforgedStats.AttackPercent))))}
+                      Max Attack %: {Math.max(...(data.map((weapon) => (weapon.reforgedStats.AttackPercent))), 0)}
                     </Typography>
                     <Typography
                       variant='h5'
                     >
-                      Max Defense %: {Math.max(...(data.map((weapon) => (weapon.reforgedStats.DefensePercent))))}
+                      Max Defense %: {Math.max(...(data.map((weapon) => (weapon.reforgedStats.DefensePercent))), 0)}
                     </Typography>
                     <Typography
                       variant='h5'
                     >
-                      Max HP %: {Math.max(...(data.map((weapon) => (weapon.reforgedStats.HealthPercent))))}
+                      Max HP %: {Math.max(...(data.map((weapon) => (weapon.reforgedStats.HealthPercent))), 0)}
                     </Typography>
                     <Typography
                       variant='h5'
                     >
-                      Max Effectiveness %: {Math.max(...(data.map((weapon) => (weapon.reforgedStats.EffectivenessPercent))))}
+                      Max Effectiveness %: {Math.max(...(data.map((weapon) => (weapon.reforgedStats.EffectivenessPercent))), 0)}
                     </Typography>
                     <Typography
                       variant='h5'
                     >
-                      Max Effect Resistance %: {Math.max(...(data.map((weapon) => (weapon.reforgedStats.EffectResistancePercent))))}
+                      Max Effect Resistance %: {Math.max(...(data.map((weapon) => (weapon.reforgedStats.EffectResistancePercent))), 0)}
                     </Typography>
                     <Typography
                       variant='h5'
