@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Button, Container, InputAdornment, Stack, TextField, Typography } from '@mui/material';
+import { Alert, Button, Container, Stack, TextField, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles'
 import { CloudUpload } from '@mui/icons-material';
 import { BarChart } from '@mui/x-charts';
@@ -24,6 +24,7 @@ const GS = () => {
             }
             setShowAlert(false)
             setData(obj.items)
+            // console.log(obj.items)
             setDataC(dataCount(obj.items))
           }
           catch (e) {
@@ -35,50 +36,13 @@ const GS = () => {
       }
     }
     
-    const calcGS = (substats, reforgable) => {
-      return Math.round(substats.reduce((total, sub) => total + calcStat(sub, reforgable), 0))
-    }
-    
-    // Taken from Fribbels
-    const calcStat = (sub, r) => {
-      const type = sub.type
-      const value = sub.value
-      const rolls = sub.rolls
-      switch (type) {
-        case 'Attack':
-          return ((r ? ((rolls - 1) * 11) : 0) + value) * 3.46 / 39;
-        case 'AttackPercent':
-          return ((r ? (rolls >= 5 ? rolls + 2 : rolls >= 2 ? rolls + 1 : rolls) : 0) + value);
-        case 'Defense':
-          return ((r ? ((rolls - 1) * 9) : 0) + value) * 4.99 / 31;
-        case 'DefensePercent':
-          return ((r ? (rolls >= 5 ? rolls + 2 : rolls >= 2 ? rolls + 1 : rolls) : 0) + value);
-        case 'Health':
-          return ((r ? ((rolls - 1) * 56) : 0) + value) * 3.09 / 174;
-        case 'HealthPercent':
-          return ((r ? (rolls >= 5 ? rolls + 2 : rolls >= 2 ? rolls + 1 : rolls) : 0) + value);
-        case 'CriticalHitChancePercent':
-          return ((r ? rolls : 0) + value) * 8 / 5;
-        case 'CriticalHitDamagePercent':
-          return ((r ? (rolls >= 5 ? rolls + 1 : rolls) : 0) + value) * 8 / 7;
-        case 'EffectResistancePercent':
-          return ((r ? (rolls >= 5 ? rolls + 2 : rolls >= 2 ? rolls + 1 : rolls) : 0) + value);
-        case 'EffectivenessPercent':
-          return ((r ? (rolls >= 5 ? rolls + 2 : rolls >= 2 ? rolls + 1 : rolls) : 0) + value);
-        case 'Speed':
-          return ((r ? (Math.min(rolls - 1, 4)) : 0) + value) * 8 / 4;
-        default:
-          console.log("You forgot " + type);
-      }
-    }
-    
     const dataCount = (items) => {
       let dict = {};
       items.forEach((item) => {
-        if (!dict[calcGS(item.substats, item.level === 85)]) {
-          dict[calcGS(item.substats, item.level === 85)] = {'SpeedSet': 0, 'NonSpeedSet': 0}
+        if (!dict[item.reforgedWss]) {
+          dict[item.reforgedWss] = {'SpeedSet': 0, 'NonSpeedSet': 0}
         }
-        dict[calcGS(item.substats, item.level === 85)][item.set === 'SpeedSet' ? 'SpeedSet' : 'NonSpeedSet'] = dict[calcGS(item.substats, item.level === 85)][item.set === 'SpeedSet' ? 'SpeedSet' : 'NonSpeedSet'] + 1
+        dict[item.reforgedWss][item.set === 'SpeedSet' ? 'SpeedSet' : 'NonSpeedSet'] = dict[item.reforgedWss][item.set === 'SpeedSet' ? 'SpeedSet' : 'NonSpeedSet'] + 1
       });
       let arrGS = [];
       let arrS = [];
@@ -100,7 +64,7 @@ const GS = () => {
     }
     
     const noGS = (gs) => {
-      return data.reduce((total, item) => (calcGS(item.substats, item.level === 85) >= gs ? total + 1 : total), 0);
+      return data.reduce((total, item) => (item.reforgedWss >= gs ? total + 1 : total), 0);
     }
     
     // Taken from https://mui.com/material-ui/react-button/
@@ -125,7 +89,7 @@ const GS = () => {
                 <Alert
                   severity='error'
                 >
-                  Make sure the file you're uploading is the gear.txt file from Fribbels Optimiser
+                  Make sure the file you're uploading is the autosave.json file from Fribbels Optimiser
                 </Alert>
               }
                 <Button
