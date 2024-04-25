@@ -26,7 +26,7 @@ const GS = () => {
             }
             setShowAlert(false)
             setData(obj.items)
-            // console.log(obj.items)
+            console.log(obj.items)
             setDataC(dataCount(obj.items))
           }
           catch (e) {
@@ -89,6 +89,15 @@ const GS = () => {
       ].sort().reverse()
             
       return base * 1.25 + topSpeedWeaponS + topSpeedHelmetS + topSpeedArmorS + topSpeedNecklaceS + topSpeedRingS + 45 + diff[0] + diff[1];
+    }
+    
+    const calcMedianGS = () => {
+      const sorted = data.sort((a, b) => a.reforgedWss - b.reforgedWss);
+      const mid = Math.floor(data.length / 2);
+      if (data.length % 2 === 0) {
+        return (sorted[mid - 1] + sorted[mid]) / 2
+      }
+      return sorted[mid].reforgedWss;
     }
     
     const noSpeed = (speed) => {
@@ -314,6 +323,7 @@ const GS = () => {
                               <MenuItem value={117}>Auxiliary Lots</MenuItem>
                               <MenuItem value={121}>Conqueror Lilias</MenuItem>
                               <MenuItem value={120}>Sea Phantom Politis</MenuItem>
+                              <MenuItem value={115}>Nahkwol</MenuItem>
                             </Select>
                           </FormControl>: {Math.round(calcTopSpeed(baseSpeed))}
                         </Typography>
@@ -343,6 +353,16 @@ const GS = () => {
                       variant='h5'
                     >
                       Max Effect Resistance %: {Math.max(...(data.map((weapon) => (weapon.reforgedStats.EffectResistancePercent))))}
+                    </Typography>
+                    <Typography
+                      variant='h5'
+                    >
+                      Average GS: {(data.reduce((total, item) => total + item.reforgedWss, 0) / data.length).toFixed(2)}
+                    </Typography>
+                    <Typography
+                      variant='h5'
+                    >
+                      Median GS: {calcMedianGS()}
                     </Typography>
                   </Stack>
                 </Grid>
