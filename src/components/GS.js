@@ -405,7 +405,7 @@ const GS = () => {
                             component="div"
                             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                           >
-                            Score
+                            Score (Beta)
                           </Typography>
                           <IconButton
                             size="large"
@@ -488,6 +488,9 @@ const GS = () => {
                   </Typography>
                   <Typography variant='h6'>
                     2. Total Score = <InlineMath math={`\\frac{\\text{Gear Score of }n\\text{th item} \\times ${RATIO} ^ {n - 1}}{100}`} />
+                  </Typography>
+                  <Typography variant='subtitle'>
+                    If you can think of a better calculation for this dm me @ekans on Discord
                   </Typography>
                 </Box>
               </Modal>
