@@ -2,7 +2,7 @@ import React from 'react';
 import battleWin from '../images/battle_pvp_icon_win.png';
 import battleDraw from '../images/battle_pvp_icon_draw.png';
 import battleLoss from '../images/battle_pvp_icon_lose.png';
-import { Accordion, AccordionDetails, AccordionSummary, Autocomplete, Box, Button, Container, FormControl, FormControlLabel, FormLabel, Grid, Link, List, ListItem, ListItemIcon, ListItemText, Modal, Radio, RadioGroup, TextField, Typography } from '@mui/material';
+import { Accordion, AccordionDetails, AccordionSummary, Autocomplete, Box, Button, Container, FormControl, FormControlLabel, FormLabel, Grid, Link, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Modal, Radio, RadioGroup, TextField, Tooltip, Typography } from '@mui/material';
 import { ExpandMoreOutlined } from '@mui/icons-material';
 
 const GW = () => {
@@ -10,17 +10,17 @@ const GW = () => {
     const [arr, setArr] = React.useState([])
     
     React.useEffect(() => {
-        if (localStorage.getItem('data') === null) {
-            localStorage.setItem('data', JSON.stringify({}))
-        }
-        (async () => {
-            const res = await fetch("https://e7-optimizer-game-data.s3-accelerate.amazonaws.com/herodata.json")
-            const json = await res.json();
-            setData(json)
-            setArr(Object.keys(json).map(function(key, idx){
-                return {"name": key, "icon": json[key].assets.icon}
-            }))
-        })()
+      if (localStorage.getItem('data') === null) {
+        localStorage.setItem('data', JSON.stringify({}))
+      }
+      (async () => {
+          const res = await fetch("https://e7-optimizer-game-data.s3-accelerate.amazonaws.com/herodata.json")
+          const json = await res.json();
+          setData(json)
+          setArr(Object.keys(json).map(function(key, idx){
+              return {"name": key, "icon": json[key].assets.icon}
+          }))
+      })()
     }, [])
         
     const [open, setOpen] = React.useState(false)
@@ -54,20 +54,25 @@ const GW = () => {
     
     
     const copy = () => {
-        setDefHero1(hero1);
-        setDefHero2(hero2);
-        setDefHero3(hero3);
+      setDefHero1(hero1);
+      setDefHero2(hero2);
+      setDefHero3(hero3);
     }
     
     const remove = (key, idx) => {
-        const storage = JSON.parse(localStorage.getItem('data'))
-        if (storage[[hero1.name, hero2.name, hero3.name].sort((a, b) => a > b ? 1 : a < b ? -1 : 0).join(',')][key].length === 1) {
-            delete storage[[hero1.name, hero2.name, hero3.name].sort((a, b) => a > b ? 1 : a < b ? -1 : 0).join(',')][key]
-        } else {
-            storage[[hero1.name, hero2.name, hero3.name].sort((a, b) => a > b ? 1 : a < b ? -1 : 0).join(',')][key].splice(idx, 1)
-        }
-        localStorage.setItem('data', JSON.stringify(storage))
-        search()
+      const storage = JSON.parse(localStorage.getItem('data'))
+      const sortedName = [hero1.name, hero2.name, hero3.name].sort((a, b) => a > b ? 1 : a < b ? -1 : 0).join(',')
+      if (storage[sortedName][key].length === 1) {
+          delete storage[sortedName][key];
+          console.log(storage[sortedName])
+          if (Object.keys(storage[sortedName]).length === 0) {
+            delete storage[sortedName]
+          }
+      } else {
+          storage[sortedName][key].splice(idx, 1)
+      }
+      localStorage.setItem('data', JSON.stringify(storage))
+      search()
     }
     
     const search = () => {
@@ -103,10 +108,37 @@ const GW = () => {
         search()
     }
     
+    const getSavedDefenses = () => {
+      const storage = JSON.parse(localStorage.getItem('data'));
+      const teams = Object.keys(storage).map((team) => {return team});
+      return teams;
+    }
+    
+    async function copyToHeroes (team) {
+      const chars = team.split(',');
+      setHero1(data[chars[0]]);
+      setHero2(data[chars[1]]);
+      setHero3(data[chars[2]]);
+      const storage = JSON.parse(localStorage.getItem('data'));
+      setRes(storage[team]);
+    }
+    
     return (
         <>
             <Container sx={{mt: 5}}>
-                <Typography variant='h3'>E7 GW Self-Tracker</Typography>
+                <Typography variant='h3'
+                  component="a"
+                  href="#"
+                  onClick = {() => {
+                    setRes([]);
+                  }}
+                  sx={{
+                    color: 'inherit',
+                    textDecoration: 'none',
+                  }}
+                >
+                  E7 GW Self-Tracker
+                </Typography>
                 <Grid container spacing={2}>
                     <Grid item xs>
                         <Autocomplete
@@ -236,8 +268,40 @@ const GW = () => {
                     <Button variant="contained" onClick={() => {search()}}>Search</Button>
                     <Button variant="contained" onClick={() => {setOpen(true)}}>Add New Attack</Button>
                 </Box>
+                {res !== undefined && Object.keys(data).length !== 0 && res.length === 0 &&
+                  <>
+                    <Typography variant='h5'>Saved Defences</Typography>
+                    {
+                      <List sx={{ width: '100%', maxWidth: 250 }}>
+                        {
+                          getSavedDefenses().map((team, idx) => {
+                            return <ListItem>
+                              <ListItemButton
+                                onClick={() => {copyToHeroes(team)}}
+                              >
+                                <ListItemIcon>
+                                  {team.split(',').map((c) => {
+                                    return (
+                                      <Tooltip title={c}>
+                                        <img
+                                          loading="lazy"
+                                          width="60"
+                                          src={data[c].assets.icon}
+                                          alt={c}
+                                        />
+                                      </Tooltip>)
+                                  })}
+                                </ListItemIcon>
+                              </ListItemButton>
+                            </ListItem>
+                          })
+                        }
+                      </List>
+                    }
+                  </>
+                }
                 {res === undefined ?
-                    <Typography>No Results. <Link onClick={() => {setOpen(true)}}>Add it</Link></Typography> :
+                    <Typography>No Results. <Link onClick={() => {setOpen(true)}} href="#">Add it</Link></Typography> :
                     <>
                         {Object.keys(res).map(function(key, idx) {
                             return <Accordion>
