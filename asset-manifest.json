@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/epic/static/css/main.70caf835.css",
-    "main.js": "/epic/static/js/main.023c1179.js",
+    "main.js": "/epic/static/js/main.18ac65e6.js",
     "static/js/453.c2d74ecf.chunk.js": "/epic/static/js/453.c2d74ecf.chunk.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/epic/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/epic/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -65,11 +65,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/epic/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/epic/index.html",
     "main.70caf835.css.map": "/epic/static/css/main.70caf835.css.map",
-    "main.023c1179.js.map": "/epic/static/js/main.023c1179.js.map",
+    "main.18ac65e6.js.map": "/epic/static/js/main.18ac65e6.js.map",
     "453.c2d74ecf.chunk.js.map": "/epic/static/js/453.c2d74ecf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.70caf835.css",
-    "static/js/main.023c1179.js"
+    "static/js/main.18ac65e6.js"
   ]
 }
