@@ -224,7 +224,12 @@ const GS = () => {
                           <Typography
                             variant='h5'
                           >
-                            Lvl 88/90 Gear: {data.reduce((total, item) => ((item.level === 88 || item.level === 90) ? total + 1 : total), 0)}
+                            Lvl 88 Gear: {data.reduce((total, item) => ((item.level === 88) ? total + 1 : total), 0)}
+                          </Typography>
+                          <Typography
+                            variant='h5'
+                          >
+                            Lvl 90 Gear: {data.reduce((total, item) => ((item.level === 90) ? total + 1 : total), 0)}
                           </Typography>
                           <Typography
                             variant='h5'
