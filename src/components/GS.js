@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, AppBar, Box, Button, Checkbox, Container, FormControl, FormControlLabel, Grid, IconButton, MenuItem, Modal, Select, Stack, TextField, Toolbar, Typography } from '@mui/material';
+import { Alert, AppBar, Box, Button, Checkbox, FormControl, FormControlLabel, Grid, IconButton, MenuItem, Modal, Select, Stack, TextField, Toolbar, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles'
 import { CloudUpload, InfoRounded } from '@mui/icons-material';
 import { BarChart } from '@mui/x-charts';
@@ -155,7 +155,6 @@ const GS = () => {
     
     return (
         <>
-            <Container maxWidth={'xl'} sx={{mt: 5}}>
               <Typography variant='h3'>E7 Gear Checker</Typography>
               <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                 <Grid item xs={8}>
@@ -499,7 +498,6 @@ const GS = () => {
                   </Typography>
                 </Box>
               </Modal>
-            </Container>
         </>
     )
 }
