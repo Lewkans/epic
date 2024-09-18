@@ -23,7 +23,21 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1144_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc104601",
+        "id": "exc104601",
+        "name": "Eternal Rose",
+        "description": "A rose that Lidica picked when she was excommunicated from the Rose Apostles. It has been specially treated to ensure it never withers but also lost its scent in the process.",
+        "unit": "c1046",
+        "role": "ranger",
+        "rarity": 5,
+        "stat": {
+          "type": "acc",
+          "value": 0.08
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -66,6 +80,79 @@
         "spd": 117,
         "def": 637,
         "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
+  "Abyssal Yufine": {
+    "code": "c2016",
+    "_id": "abyssal-yufine",
+    "name": "Abyssal Yufine",
+    "moonlight": true,
+    "rarity": 5,
+    "attribute": "dark",
+    "role": "knight",
+    "zodiac": "waterbearer",
+    "self_devotion": {
+      "type": "def_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2016_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2016_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.7,
+        "pow": 1,
+        "targets": 3,
+        "selfDefScaling": 0.9,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1.1,
+        "pow": 1,
+        "targets": 3,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 14048,
+        "atk": 830,
+        "hp": 6619,
+        "spd": 106,
+        "def": 713,
+        "chc": 0.23,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 14048,
+        "atk": 830,
+        "hp": 6619,
+        "spd": 106,
+        "def": 713,
+        "chc": 0.23,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -340,7 +427,7 @@
         "cp": 11614,
         "atk": 833,
         "hp": 3128,
-        "spd": 110,
+        "spd": 114,
         "def": 489,
         "chc": 0.19,
         "chd": 1.5,
@@ -352,7 +439,7 @@
         "cp": 14932,
         "atk": 1039,
         "hp": 3925,
-        "spd": 110,
+        "spd": 114,
         "def": 606,
         "chc": 0.27,
         "chd": 1.5,
@@ -1009,6 +1096,94 @@
       }
     }
   },
+  "Ainz Ooal Gown": {
+    "code": "c1155",
+    "_id": "Ainz Ooal Gown",
+    "name": "Ainz Ooal Gown",
+    "moonlight": true,
+    "rarity": 5,
+    "attribute": "dark",
+    "role": "mage",
+    "zodiac": "bull",
+    "self_devotion": {
+      "type": "acc",
+      "grades": {
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1155_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1155_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13970,
+        "atk": 833,
+        "hp": 4221,
+        "spd": 115,
+        "def": 542,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.06,
+        "efr": 0.18,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 0,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 0,
+        "overrideAdditionalEff": 0,
+        "overrideAdditionalRes": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17925,
+        "atk": 1039,
+        "hp": 5299,
+        "spd": 115,
+        "def": 673,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.18,
+        "efr": 0.18,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 0,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 0,
+        "overrideAdditionalEff": 0,
+        "overrideAdditionalRes": 0
+      }
+    }
+  },
   "Aither": {
     "code": "c1018",
     "_id": "aither",
@@ -1100,6 +1275,72 @@
       }
     }
   },
+  "Albedo": {
+    "code": "c1156",
+    "_id": "Albedo",
+    "name": "Albedo",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "wind",
+    "role": "knight",
+    "zodiac": "archer",
+    "self_devotion": {
+      "type": "max_hp_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1156_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1156_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13591,
+        "atk": 716,
+        "hp": 5446,
+        "spd": 100,
+        "def": 559,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17114,
+        "atk": 894,
+        "hp": 6840,
+        "spd": 104,
+        "def": 694,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
   "Alencia": {
     "code": "c1100",
     "_id": "alencia",
@@ -1177,7 +1418,18 @@
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
-        "efr": 0
+        "efr": 0,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 0,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0.2,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 0,
+        "overrideAdditionalEff": 0,
+        "overrideAdditionalRes": 0
       },
       "lv60SixStarFullyAwakened": {
         "cp": 17360,
@@ -1189,7 +1441,18 @@
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
-        "efr": 0
+        "efr": 0,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 0,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0.2,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 0,
+        "overrideAdditionalEff": 0,
+        "overrideAdditionalRes": 0
       }
     }
   },
@@ -1506,6 +1769,82 @@
         "dac": 0.03,
         "eff": 0,
         "efr": 0.3
+      }
+    }
+  },
+  "Amiki": {
+    "code": "c3158",
+    "_id": "Amiki",
+    "name": "Amiki",
+    "moonlight": false,
+    "rarity": 3,
+    "attribute": "ice",
+    "role": "warrior",
+    "zodiac": "scorpion",
+    "self_devotion": {
+      "type": "att",
+      "grades": {
+        "D": 36,
+        "C": 54,
+        "B": 72,
+        "A": 90,
+        "S": 108,
+        "SS": 126,
+        "SSS": 144
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3158_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3158_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.6,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "note": "70% penetration",
+        "rate": 1.1,
+        "pow": 0.95,
+        "targets": 1,
+        "penetration": 0.7,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 12002,
+        "atk": 779,
+        "hp": 4570,
+        "spd": 98,
+        "def": 461,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 15162,
+        "atk": 1019,
+        "hp": 5738,
+        "spd": 98,
+        "def": 571,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
       }
     }
   },
@@ -2038,7 +2377,21 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2007_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc107901",
+        "id": "exc107901",
+        "name": "Lucky Dice",
+        "description": "Dice used on the day Cermia won a once-in-a-lifetime jackpot. She holds onto them in hopes that they'll bring her that luck again one day.",
+        "unit": "c1079",
+        "role": "warrior",
+        "rarity": 5,
+        "stat": {
+          "type": "att_rate",
+          "value": 0.07
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -2214,9 +2567,9 @@
         "cp": 13675,
         "atk": 1047,
         "hp": 3385,
-        "spd": 115,
+        "spd": 117,
         "def": 525,
-        "chc": 0.22999999999999998,
+        "chc": 0.23,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -2226,9 +2579,9 @@
         "cp": 17281,
         "atk": 1306,
         "hp": 4248,
-        "spd": 119,
+        "spd": 121,
         "def": 652,
-        "chc": 0.22999999999999998,
+        "chc": 0.23,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -2260,7 +2613,21 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1129_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc202201",
+        "id": "exc202201",
+        "name": "Ruele's Sad Promise",
+        "description": "A mysterious concoction of life created by combining the laws of light and nature and the love of a noble soul.",
+        "unit": "c2022",
+        "role": "manauser",
+        "rarity": 5,
+        "stat": {
+          "type": "res",
+          "value": 0.08
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -2564,7 +2931,21 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1124_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc100301",
+        "id": "exc100301",
+        "name": "Valkyrie Wing",
+        "description": "A mysterious circlet that symbolizes strength and beauty, and is the source of Rose's Fighting Spirit.",
+        "unit": "c1003",
+        "role": "knight",
+        "rarity": 5,
+        "stat": {
+          "type": "speed",
+          "value": 5
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["normal", "miss"],
@@ -2659,14 +3040,14 @@
     "role": "warrior",
     "zodiac": "scorpion",
     "self_devotion": {
-      "type": "att_rate",
+      "type": "acc",
       "grades": {
-        "C": 0.04,
-        "B": 0.06,
-        "A": 0.08,
-        "S": 0.1,
-        "SS": 0.12,
-        "SSS": 0.14
+        "C": 0.068,
+        "B": 0.102,
+        "A": 0.136,
+        "S": 0.17,
+        "SS": 0.204,
+        "SSS": 0.238
       }
     },
     "assets": {
@@ -3102,10 +3483,10 @@
       "lv50FiveStarFullyAwakened": {
         "cp": 12736,
         "atk": 818,
-        "hp": 3867,
-        "spd": 112,
+        "hp": 4138,
+        "spd": 117,
         "def": 491,
-        "chc": 0.27,
+        "chc": 0.15,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -3114,10 +3495,10 @@
       "lv60SixStarFullyAwakened": {
         "cp": 16357,
         "atk": 1021,
-        "hp": 4855,
-        "spd": 112,
+        "hp": 5474,
+        "spd": 117,
         "def": 610,
-        "chc": 0.35,
+        "chc": 0.15,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -3316,7 +3697,21 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c6008_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc100301",
+        "id": "exc100301",
+        "name": "Valkyrie Wing",
+        "description": "A mysterious circlet that symbolizes strength and beauty, and is the source of Rose's Fighting Spirit.",
+        "unit": "c1003",
+        "role": "knight",
+        "rarity": 5,
+        "stat": {
+          "type": "speed",
+          "value": 5
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -3703,7 +4098,25 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1141_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc101601",
+        "id": "exc101601",
+        "name": "Azure Dragon's Spirit",
+        "description": "A ribbon with special powers that allows the wearer to harness their innate dragon powers.",
+        "unit": "c1016",
+        "role": "mage",
+        "rarity": 5,
+        "stat": {
+          "type": "acc",
+          "value": 0.08
+        },
+        "skills": [],
+        "assets": {
+          "icon": "https://assets.epicsevendb.com/_source/item/icon_eq_exclusive_c1016.png"
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["normal", "miss"],
@@ -3997,7 +4410,24 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2043_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc203601",
+        "id": "exc203601",
+        "name": "Silver Lion's Protection",
+        "description": "A shield with a lion motif regarded by Troublemaker Crozet as his most valued possession, which he uses in honor of his one true love.",
+        "unit": "c2036",
+        "role": "knight",
+        "rarity": 5,
+        "stat": {
+          "type": "max_hp_rate",
+          "value": 0.07
+        },
+        "assets": {
+          "icon": "https://assets.epicsevendb.com/_source/item/icon_eq_exclusive_c2036.png"
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -4121,6 +4551,141 @@
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
+        "efr": 0
+      }
+    }
+  },
+  "Bernard": {
+    "code": "c3162",
+    "_id": "Bernard",
+    "name": "Bernard",
+    "moonlight": false,
+    "rarity": 3,
+    "attribute": "wind",
+    "role": "manauser",
+    "zodiac": "bull",
+    "self_devotion": {
+      "type": "max_hp",
+      "grades": {
+        "D": 180,
+        "C": 270,
+        "B": 360,
+        "A": 450,
+        "S": 540,
+        "SS": 630,
+        "SSS": 720
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3162_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3162_l.png"
+    },
+    "ex_equip": [
+    ],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 20057,
+        "atk": 476,
+        "hp": 3449,
+        "spd": 112,
+        "def": 486,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0.18
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 20057,
+        "atk": 594,
+        "hp": 4329,
+        "spd": 112,
+        "def": 603,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0.3
+      }
+    }
+  },
+  "Birgitta": {
+    "code": "c1160",
+    "_id": "Birgitta",
+    "name": "Birgitta",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "ice",
+    "role": "manauser",
+    "zodiac": "scorpion",
+    "self_devotion": {
+      "type": "acc",
+      "grades": {
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1160_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1160_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 16221,
+        "atk": 921,
+        "hp": 5165,
+        "spd": 102,
+        "def": 497,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 16221,
+        "atk": 785,
+        "hp": 5077,
+        "spd": 114,
+        "def": 634,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.3,
         "efr": 0
       }
     }
@@ -4269,7 +4834,26 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2011_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc109501",
+        "id": "exc109501",
+        "name": "Soul Tailor",
+        "description": "A medal bestowed only to the most talented of tailors. As it is a family heirloom, Lilibet received it from her mother, with whom she has been separated from childhood.",
+        "unit": "c1095",
+        "role": "warrior",
+        "rarity": 5,
+        "stat": {
+          "type": "cri",
+          "value": 0.06
+        },
+        "skills": [
+        ],
+        "assets": {
+          "icon": "https://assets.epicsevendb.com/_source/item/icon_eq_exclusive_c1095.png"
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -4401,6 +4985,86 @@
       }
     }
   },
+  "Blooming Lidica": {
+    "code": "c5046",
+    "_id": "Blooming Lidica",
+    "name": "Blooming Lidica",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "wind",
+    "role": "assassin",
+    "zodiac": "goat",
+    "self_devotion": {
+      "type": "max_hp_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c5046_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c5046_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.5,
+        "pow": 1,
+        "targets": 1,
+        "selfHpScaling": 0.12,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.5,
+        "pow": 1,
+        "targets": 3,
+        "selfHpScaling": 0.07,
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["normal", "miss"],
+        "note": "100% penetration",
+        "rate": 0.5,
+        "pow": 1,
+        "targets": 1,
+        "penetration": 1,
+        "selfHpScaling": 0.30,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13285,
+        "atk": 804,
+        "hp": 4542,
+        "spd": 115,
+        "def": 472,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.18,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17052,
+        "atk": 1057,
+        "hp": 5542,
+        "spd": 118,
+        "def": 532,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.3,
+        "efr": 0
+      }
+    }
+  },
   "Bomb Model Kanna": {
     "code": "c1097",
     "_id": "bomb-model-kanna",
@@ -4515,7 +5179,21 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2024_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc100301",
+        "id": "exc100301",
+        "name": "Valkyrie Wing",
+        "description": "A mysterious circlet that symbolizes strength and beauty, and is the source of Rose's Fighting Spirit.",
+        "unit": "c1003",
+        "role": "knight",
+        "rarity": 5,
+        "stat": {
+          "type": "speed",
+          "value": 5
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -4561,6 +5239,90 @@
         "hp": 5299,
         "spd": 114,
         "def": 571,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.18,
+        "efr": 0
+      }
+    }
+  },
+  "Brieg": {
+    "code": "c1145",
+    "_id": "brieg",
+    "name": "Brieg",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "ice",
+    "role": "knight",
+    "zodiac": "ram",
+    "self_devotion": {
+      "type": "max_hp_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1145_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1145_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.7,
+        "pow": 1,
+        "targets": 1,
+        "selfHpScaling": 0.12,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "rate": 0,
+        "pow": 0,
+        "options": [
+          {
+            "name": "S2 barrier",
+            "rate": 0,
+            "pow": 0,
+            "selfHpScaling": 0.185
+          }
+        ]
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "note": "with proc dmg",
+        "rate": 1,
+        "pow": 1,
+        "targets": 3,
+        "selfHpScaling": 0.22,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13403,
+        "atk": 658,
+        "hp": 5375,
+        "spd": 110,
+        "def": 523,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.06,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17219,
+        "atk": 821,
+        "hp": 6751,
+        "spd": 110,
+        "def": 648,
         "chc": 0.15,
         "chd": 1.5,
         "dac": 0.03,
@@ -4636,6 +5398,81 @@
         "spd": 95,
         "def": 606,
         "chc": 0.22999999999999998,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
+  "Byblis": {
+    "code": "c1154",
+    "_id": "Byblis",
+    "name": "Byblis",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "ice",
+    "role": "ranger",
+    "zodiac": "fish",
+    "self_devotion": {
+      "type": "acc",
+      "grades": {
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1154_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1154_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.8,
+        "pow": 1.3,
+        "targets": 3,
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 3,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 16999,
+        "atk": 797,
+        "hp": 4536,
+        "spd": 120,
+        "def": 492,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 21659,
+        "atk": 993,
+        "hp": 6002,
+        "spd": 120,
+        "def": 611,
+        "chc": 0.15,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -4951,7 +5788,7 @@
         "cp": 11614,
         "atk": 833,
         "hp": 3128,
-        "spd": 110,
+        "spd": 114,
         "def": 489,
         "chc": 0.19,
         "chd": 1.5,
@@ -4963,7 +5800,7 @@
         "cp": 14932,
         "atk": 1039,
         "hp": 3925,
-        "spd": 110,
+        "spd": 114,
         "def": 606,
         "chc": 0.27,
         "chd": 1.5,
@@ -5547,40 +6384,6 @@
         "stat": {
           "type": "att_rate",
           "value": 0.07
-        },
-        "skills": [
-          {
-            "skill": 1,
-            "description": "25% chance to grant an extra attack with the same skill when using Playing with Fire.",
-            "skill_description": "Attacks with a flaming sword, with a {{variable}} chance to make the target unhealable for 1 turn. Has a 25% chance to grant the caster an extra attack with the same skill.",
-            "values": [
-              27
-            ],
-            "_id": 0
-          },
-          {
-            "skill": 2,
-            "description": "Grants a barrier to the caster for 2 turns when using Hot Streak!. Barrier strength increases proportional to the caster’s Attack.",
-            "skill_description": "Shoots fire, granting the caster increased Attack (Greater) and a barrier for 2 turns, resetting the cooldown of All-In!, and granting an extra turn. Barrier strength is proportional to the caster's Attack.",
-            "values": [
-              44,
-              5,
-              35
-            ],
-            "_id": 1
-          },
-          {
-            "skill": 3,
-            "description": "Decreases skill cooldown of Hot Streak! by 2 turns when an enemy is defeated by All-In!.",
-            "skill_description": "Attacks with a blazing inferno, penetrating Defense by 50%. Decreases skill cooldown of Hot Streak! by 2 turns when an enemy is defeated.",
-            "values": [
-              34
-            ],
-            "_id": 2
-          }
-        ],
-        "assets": {
-          "icon": "https://assets.epicsevendb.com/_source/item/icon_eq_exclusive_c1079.png"
         }
       }
     ],
@@ -5657,7 +6460,53 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2037_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc106601",
+        "id": "exc106601",
+        "name": "Dragon Emerald",
+        "description": "Jewelry that Luna's father passed on to her. It is the only thing her mother left behind when she left.",
+        "unit": "c1066",
+        "role": "warrior",
+        "rarity": 5,
+        "stat": {
+          "type": "att_rate",
+          "value": 0.07
+        },
+        "skills": [
+          {
+            "skill": 1,
+            "description": "Increases the caster's Combat Readiness by 15% after using Infinity Slash.",
+            "skill_description": "Stabs the target a random number of times, before increasing Combat Readiness of the caster by 15%. Skill cooldown decreases by 1-3 turns and damage dealt increases according to the number of attacks.",
+            "values": [],
+            "_id": 0
+          },
+          {
+            "skill": 3,
+            "description": "Decreases the enemy's Attack for 2 turns after using Ragnar Spear.",
+            "skill_description": "Soars into the air and hits the enemy with a spear, with a {{variable}} chance to decrease Defense for 2 turns and a 100% chance to decrease Attack for 2 turns. Attacks using an advantageous element.",
+            "values": [
+              18,
+              17
+            ],
+            "_id": 1
+          },
+          {
+            "skill": 3,
+            "description": "Grants an extra turn to the caster when the enemy is defeated by Ragnar Spear.",
+            "skill_description": "Soars into the air and hits the enemy with a spear, with a {{variable}} chance to decrease Defense for 2 turns. Attacks using an advantageous element. Grants an extra turn to the caster when the enemy is defeated.",
+            "values": [
+              18,
+              35
+            ],
+            "_id": 2
+          }
+        ],
+        "assets": {
+          "icon": "https://assets.epicsevendb.com/_source/item/icon_eq_exclusive_c1066.png"
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -6822,6 +7671,89 @@
       }
     }
   },
+  "Claudia": {
+    "code": "c3156",
+    "_id": "Claudia",
+    "name": "Claudia",
+    "moonlight": true,
+    "rarity": 3,
+    "attribute": "fire",
+    "role": "knight",
+    "zodiac": "ram",
+    "self_devotion": {
+      "type": "max_hp",
+      "grades": {
+        "D": 180,
+        "C": 270,
+        "B": 360,
+        "A": 450,
+        "S": 540,
+        "SS": 630,
+        "SSS": 720
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3156_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3156_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1.3,
+        "targets": 1,
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "rate": 0,
+        "pow": 0,
+        "options": [
+          {
+            "name": "S3 heal",
+            "rate": 0,
+            "pow": 0,
+            "selfHpScaling": 0.25
+          }
+        ]
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 11779,
+        "atk": 564,
+        "hp": 4709,
+        "spd": 105,
+        "def": 480,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.06,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 15140,
+        "atk": 703,
+        "hp": 5914,
+        "spd": 105,
+        "def": 596,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.18,
+        "efr": 0
+      }
+    }
+  },
   "Closer Charles": {
     "code": "c2027",
     "_id": "closer-charles",
@@ -7143,6 +8075,92 @@
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
+        "efr": 0
+      }
+    }
+  },
+  "Command Model Laika": {
+    "code": "c1099",
+    "_id": "command-model-laika",
+    "name": "Command Model Laika",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "wind",
+    "role": "ranger",
+    "zodiac": "twins",
+    "self_devotion": {
+      "type": "acc",
+      "grades": {
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1099_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1099_l.png"
+    },
+    "ex_equip": [
+      {
+        "_id": "exc101099",
+        "id": "exc101099",
+        "name": "Prototype Memory Card",
+        "description": "A memory card that was installed in Laika when she was first produced. Brinus gave it to her in a small gift box and told her to go through its contents whenever Laika felt the need.",
+        "unit": "c1099",
+        "role": "ranger",
+        "rarity": 5,
+        "stat": {
+          "type": "speed",
+          "value": 5
+        }
+      }
+    ],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1.1,
+        "pow": 1,
+        "targets": 3,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13288,
+        "atk": 904,
+        "hp": 4221,
+        "spd": 114,
+        "def": 460,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.18,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 16848,
+        "atk": 1182,
+        "hp": 5299,
+        "spd": 114,
+        "def": 571,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.18,
         "efr": 0
       }
     }
@@ -8482,6 +9500,160 @@
       }
     }
   },
+  "Dragon Bride Senya": {
+    "code": "c2106",
+    "_id": "Dragon Bride Senya",
+    "name": "Dragon Bride Senya",
+    "moonlight": true,
+    "rarity": 5,
+    "attribute": "light",
+    "role": "knight",
+    "zodiac": "archer",
+    "self_devotion": {
+      "type": "max_hp_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2106_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2106_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13591,
+        "atk": 716,
+        "hp": 5446,
+        "spd": 100,
+        "def": 559,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 10,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 0,
+        "overrideAdditionalEff": 0,
+        "overrideAdditionalRes": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17114,
+        "atk": 894,
+        "hp": 6840,
+        "spd": 104,
+        "def": 694,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 10,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 0,
+        "overrideAdditionalEff": 0,
+        "overrideAdditionalRes": 0
+      }
+    }
+  },
+  "Dragon King Sharun": {
+    "code": "c2132",
+    "_id": "Dragon King Sharun",
+    "name": "Dragon King Sharun",
+    "moonlight": true,
+    "rarity": 5,
+    "attribute": "light",
+    "role": "manauser",
+    "zodiac": "scorpion",
+    "self_devotion": {
+      "type": "acc",
+      "grades": {
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2132_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2132_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 15694,
+        "atk": 513,
+        "hp": 4253,
+        "spd": 106,
+        "def": 580,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.06,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 20045,
+        "atk": 640,
+        "hp": 5340,
+        "spd": 106,
+        "def": 720,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.18,
+        "efr": 0
+      }
+    }
+  },
   "Eaton": {
     "code": "c3094",
     "_id": "eaton",
@@ -8883,7 +10055,21 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1142_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc107901",
+        "id": "exc107901",
+        "name": "Lucky Dice",
+        "description": "Dice used on the day Cermia won a once-in-a-lifetime jackpot. She holds onto them in hopes that they'll bring her that luck again one day.",
+        "unit": "c1079",
+        "role": "warrior",
+        "rarity": 5,
+        "stat": {
+          "type": "att_rate",
+          "value": 0.07
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -9093,6 +10279,94 @@
       }
     }
   },
+  "Elvira": {
+    "code": "c1148",
+    "_id": "Elvira",
+    "name": "Elvira",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "ice",
+    "role": "assassin",
+    "zodiac": "goat",
+    "self_devotion": {
+      "type": "res",
+      "grades": {
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1148_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1148_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13285,
+        "atk": 804,
+        "hp": 4542,
+        "spd": 115,
+        "def": 472,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.18,
+        "efr": 0,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 0,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 0,
+        "overrideAdditionalEff": 0,
+        "overrideAdditionalRes": 0.50
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17052,
+        "atk": 1057,
+        "hp": 5542,
+        "spd": 118,
+        "def": 532,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.3,
+        "efr": 0,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 0,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 0,
+        "overrideAdditionalEff": 0,
+        "overrideAdditionalRes": 0.50
+      }
+    }
+  },
   "Emilia": {
     "code": "c1116",
     "_id": "emilia",
@@ -9183,6 +10457,80 @@
         "dac": 0.03,
         "eff": 0,
         "efr": 0.3
+      }
+    }
+  },
+  "Empyrean Ilynav": {
+    "code": "c2113",
+    "_id": "Empyrean Ilynav",
+    "name": "Empyrean Ilynav",
+    "moonlight": true,
+    "rarity": 5,
+    "attribute": "light",
+    "role": "knight",
+    "zodiac": "crab",
+    "self_devotion": {
+      "type": "max_hp_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2113_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2113_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 1,
+        "selfHpScaling": 0.1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 1,
+        "selfHpScaling": 0.18,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 16523,
+        "atk": 794,
+        "hp": 7332,
+        "spd": 95,
+        "def": 767,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 16523,
+        "atk": 794,
+        "hp": 7332,
+        "spd": 95,
+        "def": 767,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
       }
     }
   },
@@ -9331,6 +10679,157 @@
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
+        "efr": 0
+      }
+    }
+  },
+  "Eternal Wanderer Ludwig": {
+    "code": "c2069",
+    "_id": "eternal-wanderer-ludwig",
+    "name": "Eternal Wanderer Ludwig",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "dark",
+    "role": "mage",
+    "zodiac": "lion",
+    "self_devotion": {
+      "type": "cri",
+      "grades": {
+        "B": 0.056,
+        "A": 0.084,
+        "S": 0.112,
+        "SS": 0.14,
+        "SSS": 0.168
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2069_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2069_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1.6,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "note": "60% penetration",
+        "rate": 1,
+        "pow": 1,
+        "targets": 3,
+        "penetration": 0.6,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13169,
+        "atk": 1079,
+        "hp": 3385,
+        "spd": 112,
+        "def": 520,
+        "chc": 0.23,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 16722,
+        "atk": 1412,
+        "hp": 4248,
+        "spd": 112,
+        "def": 645,
+        "chc": 0.23,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
+  "Ezra": {
+    "code": "c3157",
+    "_id": "Ezra",
+    "name": "Ezra",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "wind",
+    "role": "assassin",
+    "zodiac": "maiden",
+    "self_devotion": {
+      "type": "acc",
+      "grades": {
+        "D": 0.045,
+        "C": 0.068,
+        "B": 0.09,
+        "A": 0.112,
+        "S": 0.135,
+        "SS": 0.158,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3157_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3157_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 3,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 12898,
+        "atk": 738,
+        "hp": 3939,
+        "spd": 122,
+        "def": 373,
+        "chc": 0.22999999999999998,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 16285,
+        "atk": 921,
+        "hp": 4945,
+        "spd": 122,
+        "def": 462,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.18,
         "efr": 0
       }
     }
@@ -9662,6 +11161,138 @@
       }
     }
   },
+  "Fenris": {
+    "code": "c1158",
+    "_id": "Fenris",
+    "name": "Fenris",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "wind",
+    "role": "ranger",
+    "zodiac": "bull",
+    "self_devotion": {
+      "type": "att_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1158_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1158_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 16394,
+        "atk": 1016,
+        "hp": 4092,
+        "spd": 109,
+        "def": 469,
+        "chc": 0.23,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 20727,
+        "atk": 1327,
+        "hp": 5138,
+        "spd": 109,
+        "def": 582,
+        "chc": 0.23,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
+  "Festive Eda": {
+    "code": "c5111",
+    "_id": "Festive Eda",
+    "name": "Festive Eda",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "fire",
+    "role": "mage",
+    "zodiac": "fish",
+    "self_devotion": {
+      "type": "acc",
+      "grades": {
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c5111_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c5111_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 16357,
+        "atk": 1102,
+        "hp": 5782,
+        "spd": 120,
+        "def": 634,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 16357,
+        "atk": 1102,
+        "hp": 5782,
+        "spd": 120,
+        "def": 634,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
   "Fighter Maya": {
     "code": "c2032",
     "_id": "fighter-maya",
@@ -9907,6 +11538,166 @@
         "dac": 0.03,
         "eff": 0.18,
         "efr": 0
+      }
+    }
+  },
+  "Frida": {
+    "code": "c1163",
+    "_id": "Frida",
+    "name": "Frida",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "ice",
+    "role": "manauser",
+    "zodiac": "bull",
+    "self_devotion": {
+      "type": "res",
+      "grades": {
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1163_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1163_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 15716,
+        "atk": 556,
+        "hp": 3867,
+        "spd": 117,
+        "def": 528,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0.18
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 20057,
+        "atk": 694,
+        "hp": 4855,
+        "spd": 117,
+        "def": 655,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0.3
+      }
+    }
+  },
+  "Fumyr": {
+    "code": "c1147",
+    "_id": "fumyr",
+    "name": "Fumyr",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "ice",
+    "role": "mage",
+    "zodiac": "bull",
+    "self_devotion": {
+      "type": "acc",
+      "grades": {
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1147_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1147_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.9,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1.5,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13970,
+        "atk": 833,
+        "hp": 4221,
+        "spd": 115,
+        "def": 542,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.06,
+        "efr": 0.18,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 0,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 0,
+        "overrideAdditionalEff": 0,
+        "overrideAdditionalRes": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17925,
+        "atk": 1039,
+        "hp": 5299,
+        "spd": 115,
+        "def": 673,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.18,
+        "efr": 0.18,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 0,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 0,
+        "overrideAdditionalEff": 0,
+        "overrideAdditionalRes": 0
       }
     }
   },
@@ -10656,6 +12447,72 @@
       }
     }
   },
+  "Harsetti": {
+    "code": "c1153",
+    "_id": "Harsetti",
+    "name": "Harsetti",
+    "moonlight": true,
+    "rarity": 5,
+    "attribute": "dark",
+    "role": "mage",
+    "zodiac": "scales",
+    "self_devotion": {
+      "type": "max_hp_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1153_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1153_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 17685,
+        "atk": 1039,
+        "hp": 6034,
+        "spd": 124,
+        "def": 613,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17685,
+        "atk": 1039,
+        "hp": 6034,
+        "spd": 124,
+        "def": 613,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
   "Hasol": {
     "code": "c3135",
     "_id": "hasol",
@@ -11363,10 +13220,10 @@
       "lv50FiveStarFullyAwakened": {
         "cp": 11922,
         "atk": 746,
-        "hp": 3642,
-        "spd": 111,
+        "hp": 3873,
+        "spd": 115,
         "def": 472,
-        "chc": 0.27,
+        "chc": 0.15,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -11375,10 +13232,10 @@
       "lv60SixStarFullyAwakened": {
         "cp": 15277,
         "atk": 930,
-        "hp": 4572,
-        "spd": 111,
+        "hp": 5121,
+        "spd": 115,
         "def": 585,
-        "chc": 0.35,
+        "chc": 0.15,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -11454,7 +13311,7 @@
         "dac": 0.03,
         "eff": 0,
         "efr": 0,
-        "bonusMaxAtkPercent": 30,
+        "bonusMaxAtkPercent": 0,
         "bonusMaxDefPercent": 0,
         "bonusMaxHpPercent": 0,
         "overrideAtk": 0,
@@ -11477,7 +13334,7 @@
         "dac": 0.03,
         "eff": 0,
         "efr": 0,
-        "bonusMaxAtkPercent": 30,
+        "bonusMaxAtkPercent": 0,
         "bonusMaxDefPercent": 0,
         "bonusMaxHpPercent": 0,
         "overrideAtk": 0,
@@ -11657,6 +13514,72 @@
       }
     }
   },
+  "Immortal Wukong": {
+    "code": "c1161",
+    "_id": "Immortal Wukong",
+    "name": "Immortal Wukong",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "wind",
+    "role": "warrior",
+    "zodiac": "scorpion",
+    "self_devotion": {
+      "type": "att_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1161_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1161_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 16221,
+        "atk": 1208,
+        "hp": 6488,
+        "spd": 102,
+        "def": 616,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 16221,
+        "atk": 1208,
+        "hp": 6488,
+        "spd": 102,
+        "def": 616,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
   "Inferno Khawazu": {
     "code": "c2085",
     "_id": "inferno-khawazu",
@@ -11768,6 +13691,94 @@
         "dac": 0.03,
         "eff": 0,
         "efr": 0
+      }
+    }
+  },
+  "Infinite Horizon Achates": {
+    "code": "c6017",
+    "_id": "infinite-horizon-achates",
+    "name": "Infinite Horizon Achates",
+    "moonlight": true,
+    "rarity": 4,
+    "attribute": "light",
+    "role": "manauser",
+    "zodiac": "fish",
+    "self_devotion": {
+      "type": "res",
+      "grades": {
+        "C": 0.068,
+        "B": 0.102,
+        "A": 0.136,
+        "S": 0.17,
+        "SS": 0.204,
+        "SSS": 0.238
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c6017_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c6017_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "rate": 0,
+        "pow": 0,
+        "options": [
+          {
+            "name": "S2 barrier",
+            "rate": 0,
+            "pow": 0,
+            "selfHpScaling": 0.18
+          }
+        ]
+      },
+      "S3": {
+        "hitTypes": [],
+        "rate": 0,
+        "pow": 0,
+        "options": [
+          {
+            "name": "S3 heal",
+            "rate": 0,
+            "pow": 0,
+            "selfHpScaling": 0.2
+          }
+        ]
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 20659,
+        "atk": 576,
+        "hp": 5165,
+        "spd": 100,
+        "def": 767,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0.12
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 20659,
+        "atk": 576,
+        "hp": 5165,
+        "spd": 100,
+        "def": 767,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0.12
       }
     }
   },
@@ -12141,6 +14152,79 @@
       }
     }
   },
+  "Jenua": {
+    "code": "c1055",
+    "_id": "jenua",
+    "name": "Jenua",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "fire",
+    "role": "assassin",
+    "zodiac": "scorpion",
+    "self_devotion": {
+      "type": "cri",
+      "grades": {
+        "B": 0.056,
+        "A": 0.084,
+        "S": 0.112,
+        "SS": 0.14,
+        "SSS": 0.168
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1055_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1055_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 0.9,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.32,
+        "pow": 0.95,
+        "penetration": 1,
+        "targets": 1,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13275,
+        "atk": 984,
+        "hp": 4735,
+        "spd": 113,
+        "def": 381,
+        "chc": 0.22999999999999998,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 16901,
+        "atk": 1228,
+        "hp": 6266,
+        "spd": 113,
+        "def": 473,
+        "chc": 0.22999999999999998,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
   "Judge Kise": {
     "code": "c2006",
     "_id": "judge-kise",
@@ -12151,13 +14235,13 @@
     "role": "warrior",
     "zodiac": "maiden",
     "self_devotion": {
-      "type": "att_rate",
+      "type": "cri",
       "grades": {
-        "B": 0.06,
-        "A": 0.09,
-        "S": 0.12,
-        "SS": 0.15,
-        "SSS": 0.18
+        "B": 0.056,
+        "A": 0.084,
+        "S": 0.112,
+        "SS": 0.14,
+        "SSS": 0.168
       }
     },
     "assets": {
@@ -12288,7 +14372,7 @@
     }
   },
   "Juni": {
-    "code": "c2013",
+    "code": "c3151",
     "_id": "juni",
     "name": "Juni",
     "moonlight": false,
@@ -12354,6 +14438,73 @@
         "spd": 114,
         "def": 518,
         "chc": 0.27,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
+  "Kane": {
+    "code": "c1152",
+    "_id": "kane",
+    "name": "Kane",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "fire",
+    "role": "warrior",
+    "zodiac": "lion",
+    "self_devotion": {
+      "type": "att_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1152_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1152_l.png"
+    },
+    "ex_equip": [
+    ],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13727,
+        "atk": 1040,
+        "hp": 4414,
+        "spd": 105,
+        "def": 472,
+        "chc": 0.22999999999999998,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17416,
+        "atk": 1359,
+        "hp": 5542,
+        "spd": 105,
+        "def": 585,
+        "chc": 0.22999999999999998,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -12584,9 +14735,9 @@
         "cp": 13675,
         "atk": 1047,
         "hp": 3385,
-        "spd": 115,
+        "spd": 117,
         "def": 525,
-        "chc": 0.22999999999999998,
+        "chc": 0.23,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -12596,9 +14747,9 @@
         "cp": 17281,
         "atk": 1306,
         "hp": 4248,
-        "spd": 119,
+        "spd": 121,
         "def": 652,
-        "chc": 0.22999999999999998,
+        "chc": 0.23,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -12745,7 +14896,21 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1047_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc102301",
+        "id": "exc102301",
+        "name": "Grudge Marble",
+        "description": "A marble filled with the grudges of people who pledged their souls and loyalty to Kayron",
+        "unit": "c1023",
+        "role": "assassin",
+        "rarity": 5,
+        "stat": {
+          "type": "cri",
+          "value": 0.06
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -13587,50 +15752,34 @@
       }
     }
   },
-  "Command Model Laika": {
-    "code": "c1099",
-    "_id": "command-model-laika",
-    "name": "Command Model Laika",
+  "Laia": {
+    "code": "c1159",
+    "_id": "laia",
+    "name": "Laia",
     "moonlight": false,
     "rarity": 5,
     "attribute": "wind",
-    "role": "ranger",
-    "zodiac": "twins",
+    "role": "warrior",
+    "zodiac": "ram",
     "self_devotion": {
-      "type": "acc",
+      "type": "max_hp_rate",
       "grades": {
-        "B": 0.09,
-        "A": 0.135,
-        "S": 0.18,
-        "SS": 0.225,
-        "SSS": 0.27
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
       }
     },
     "assets": {
-      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1099_s.png",
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1159_s.png",
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
-      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1099_l.png"
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1159_l.png"
     },
-    "ex_equip": [
-      {
-        "_id": "exc101099",
-        "id": "exc101099",
-        "name": "Prototype Memory Card",
-        "description": "A memory card that was installed in Laika when she was first produced. Brinus gave it to her in a small gift box and told her to go through its contents whenever Laika felt the need.",
-        "unit": "c1099",
-        "role": "ranger",
-        "rarity": 5,
-        "stat": {
-          "type": "speed",
-          "value": 5
-        }
-      }
-    ],
+    "ex_equip": [],
     "skills": {
       "S1": {
-        "hitTypes": ["crit", "crushing", "normal", "miss"],
-        "pow": 1,
-        "targets": 1,
+        "hitTypes": [],
         "options": []
       },
       "S2": {
@@ -13638,36 +15787,33 @@
         "options": []
       },
       "S3": {
-        "hitTypes": ["crit", "crushing", "normal", "miss"],
-        "rate": 1.1,
-        "pow": 1,
-        "targets": 3,
+        "hitTypes": [],
         "options": []
       }
     },
     "calculatedStatus": {
       "lv50FiveStarFullyAwakened": {
-        "cp": 13288,
-        "atk": 904,
-        "hp": 4221,
-        "spd": 114,
-        "def": 460,
+        "cp": 11377,
+        "atk": 789,
+        "hp": 4735,
+        "spd": 117,
+        "def": 514,
         "chc": 0.15,
         "chd": 1.5,
         "dac": 0.03,
-        "eff": 0.18,
+        "eff": 0,
         "efr": 0
       },
       "lv60SixStarFullyAwakened": {
-        "cp": 16848,
-        "atk": 1182,
-        "hp": 5299,
-        "spd": 114,
-        "def": 571,
+        "cp": 14466,
+        "atk": 984,
+        "hp": 6266,
+        "spd": 117,
+        "def": 637,
         "chc": 0.15,
         "chd": 1.5,
         "dac": 0.03,
-        "eff": 0.18,
+        "eff": 0,
         "efr": 0
       }
     }
@@ -13769,7 +15915,26 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c6011_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc109501",
+        "id": "exc109501",
+        "name": "Soul Tailor",
+        "description": "A medal bestowed only to the most talented of tailors. As it is a family heirloom, Lilibet received it from her mother, with whom she has been separated from childhood.",
+        "unit": "c1095",
+        "role": "warrior",
+        "rarity": 5,
+        "stat": {
+          "type": "cri",
+          "value": 0.06
+        },
+        "skills": [
+        ],
+        "assets": {
+          "icon": "https://assets.epicsevendb.com/_source/item/icon_eq_exclusive_c1095.png"
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -13901,6 +16066,74 @@
         "dac": 0.03,
         "eff": 0,
         "efr": 0.18
+      }
+    }
+  },
+  "Leah": {
+    "code": "c3163",
+    "_id": "Leah",
+    "name": "Leah",
+    "moonlight": false,
+    "rarity": 3,
+    "attribute": "wind",
+    "role": "ranger",
+    "zodiac": "maiden",
+    "self_devotion": {
+      "type": "att",
+      "grades": {
+        "D": 36,
+        "C": 54,
+        "B": 72,
+        "A": 90,
+        "S": 108,
+        "SS": 126,
+        "SSS": 144
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3163_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3163_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 11323,
+        "atk": 828,
+        "hp": 3546,
+        "spd": 118,
+        "def": 407,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 14349,
+        "atk": 1081,
+        "hp": 4450,
+        "spd": 118,
+        "def": 504,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
       }
     }
   },
@@ -14072,6 +16305,100 @@
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0.3,
+        "efr": 0
+      }
+    }
+  },
+  "Lethe": {
+    "code": "c5149",
+    "_id": "lethe",
+    "name": "Lethe",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "ice",
+    "role": "warrior",
+    "zodiac": "waterbearer",
+    "self_devotion": {
+      "type": "acc",
+      "grades": {
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c5149_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c5149_l.png"
+    },
+    "ex_equip": [
+      {
+        "_id": "exc104201",
+        "id": "exc104201",
+        "name": "Estyria",
+        "description": "A beautiful, silver sword that cuts through its enemies delicately, like the winter wind.",
+        "unit": "c1042",
+        "role": "knight",
+        "rarity": 5,
+        "stat": {
+          "type": "max_hp_rate",
+          "value": 0.07
+        },
+        "assets": {
+          "icon": "https://assets.epicsevendb.com/_source/item/icon_eq_exclusive_c1042.png"
+        }
+      }
+    ],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": ["normal", "miss"],
+        "rate": 0.3,
+        "pow": 1.3,
+        "targets": 1,
+        "selfHpScaling": 0.22,
+        "penetration": 1,
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1.05,
+        "targets": 3,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 17097,
+        "atk": 885,
+        "hp": 6149,
+        "spd": 121,
+        "def": 613,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.18,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17097,
+        "atk": 885,
+        "hp": 6149,
+        "spd": 121,
+        "def": 613,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.18,
         "efr": 0
       }
     }
@@ -14292,7 +16619,21 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1089_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc100301",
+        "id": "exc100301",
+        "name": "Valkyrie Wing",
+        "description": "A mysterious circlet that symbolizes strength and beauty, and is the source of Rose's Fighting Spirit.",
+        "unit": "c1003",
+        "role": "knight",
+        "rarity": 5,
+        "stat": {
+          "type": "max_hp_rate",
+          "value": 0.07
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -14552,13 +16893,13 @@
     "role": "warrior",
     "zodiac": "scales",
     "self_devotion": {
-      "type": "def_rate",
+      "type": "cri",
       "grades": {
-        "B": 0.06,
-        "A": 0.09,
-        "S": 0.12,
-        "SS": 0.15,
-        "SSS": 0.18
+        "B": 0.056,
+        "A": 0.084,
+        "S": 0.112,
+        "SS": 0.14,
+        "SSS": 0.168
       }
     },
     "assets": {
@@ -15106,7 +17447,7 @@
         "hp": 3385,
         "spd": 112,
         "def": 520,
-        "chc": 0.15,
+        "chc": 0.23,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -15118,7 +17459,7 @@
         "hp": 4248,
         "spd": 112,
         "def": 645,
-        "chc": 0.15,
+        "chc": 0.23,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -15632,7 +17973,7 @@
         "overrideAdditionalCd": 0,
         "overrideAdditionalSpd": 0,
         "overrideAdditionalEff": 0,
-        "overrideAdditionalRes": 0.3
+        "overrideAdditionalRes": 0
       },
       "lv60SixStarFullyAwakened": {
         "cp": 17416,
@@ -15655,7 +17996,7 @@
         "overrideAdditionalCd": 0,
         "overrideAdditionalSpd": 0,
         "overrideAdditionalEff": 0,
-        "overrideAdditionalRes": 0.3
+        "overrideAdditionalRes": 0
       }
     }
   },
@@ -16064,7 +18405,7 @@
         "hp": 3385,
         "spd": 112,
         "def": 520,
-        "chc": 0.15,
+        "chc": 0.23,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -16076,7 +18417,7 @@
         "hp": 4248,
         "spd": 112,
         "def": 645,
-        "chc": 0.15,
+        "chc": 0.23,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -16256,6 +18597,80 @@
       }
     }
   },
+  "Midnight Gala Lilias": {
+    "code": "c5089",
+    "_id": "midnight-gala-lilias",
+    "name": "Midnight Gala Lilias",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "wind",
+    "role": "assassin",
+    "zodiac": "scales",
+    "self_devotion": {
+      "type": "att_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c5089_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c5089_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1.1,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "note": "100% penetration",
+        "rate": 0.5,
+        "pow": 1,
+        "targets": 1,
+        "penetration": 1,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13275,
+        "atk": 1208,
+        "hp": 5178,
+        "spd": 121,
+        "def": 508,
+        "chc": 0.15,
+        "chd": 1.65,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 13275,
+        "atk": 1208,
+        "hp": 5178,
+        "spd": 121,
+        "def": 508,
+        "chc": 0.15,
+        "chd": 1.65,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
   "Mighty Scout": {
     "code": "m0063",
     "_id": "mighty-scout",
@@ -16263,7 +18678,7 @@
     "moonlight": false,
     "rarity": 2,
     "attribute": "wind",
-    "role": "warrior",
+    "role": "assassin",
     "zodiac": "goat",
     "self_devotion": {
       "type": "max_hp",
@@ -16575,11 +18990,11 @@
     "calculatedStatus": {
       "lv50FiveStarFullyAwakened": {
         "cp": 11929,
-        "atk": 952,
+        "atk": 958,
         "hp": 3128,
         "spd": 109,
         "def": 489,
-        "chc": 0.15,
+        "chc": 0.23,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -16587,11 +19002,11 @@
       },
       "lv60SixStarFullyAwakened": {
         "cp": 15119,
-        "atk": 1244,
+        "atk": 1252,
         "hp": 3925,
         "spd": 109,
         "def": 606,
-        "chc": 0.15,
+        "chc": 0.23,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -16724,20 +19139,18 @@
       },
       "S2": {
         "hitTypes": [],
-        "rate": 0,
-        "pow": 0,
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
         "options": [
           {
-            "name": "S2 barrier",
+            "name": "S3 barrier",
             "rate": 0,
             "pow": 0,
             "selfHpScaling": 0.3045
           }
         ]
-      },
-      "S3": {
-        "hitTypes": [],
-        "options": []
       }
     },
     "calculatedStatus": {
@@ -16762,7 +19175,7 @@
         "overrideAdditionalCd": 0,
         "overrideAdditionalSpd": 0,
         "overrideAdditionalEff": 0,
-        "overrideAdditionalRes": 0.2
+        "overrideAdditionalRes": 0.3
       },
       "lv60SixStarFullyAwakened": {
         "cp": 18832,
@@ -16785,7 +19198,7 @@
         "overrideAdditionalCd": 0,
         "overrideAdditionalSpd": 0,
         "overrideAdditionalEff": 0,
-        "overrideAdditionalRes": 0.2
+        "overrideAdditionalRes": 0.3
       }
     }
   },
@@ -16858,7 +19271,7 @@
     ],
     "skills": {
       "S1": {
-        "hitTypes": [],
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
         "rate": 0.7,
         "pow": 1,
         "targets": 1,
@@ -16991,13 +19404,13 @@
     "role": "warrior",
     "zodiac": "maiden",
     "self_devotion": {
-      "type": "coop",
+      "type": "acc",
       "grades": {
-        "B": 0.02,
-        "A": 0.03,
-        "S": 0.04,
-        "SS": 0.05,
-        "SSS": 0.06
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
       }
     },
     "assets": {
@@ -17275,6 +19688,150 @@
       }
     }
   },
+  "Nahkwol": {
+    "code": "c1151",
+    "_id": "nahkwol",
+    "name": "Nahkwol",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "fire",
+    "role": "ranger",
+    "zodiac": "goat",
+    "self_devotion": {
+      "type": "acc",
+      "grades": {
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/nahkwolPortrait.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/nahkwolPanel.png"
+    },
+    "ex_equip": [
+    ],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13285,
+        "atk": 804,
+        "hp": 4542,
+        "spd": 115,
+        "def": 472,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.18,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17052,
+        "atk": 1003,
+        "hp": 5704,
+        "spd": 115,
+        "def": 585,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0.3,
+        "efr": 0
+      }
+    }
+  },
+  "Navy Captain Landy": {
+    "code": "c2109",
+    "_id": "navy-captain-landy",
+    "name": "Navy Captain Landy",
+    "moonlight": true,
+    "rarity": 5,
+    "attribute": "light",
+    "role": "knight",
+    "zodiac": "lion",
+    "self_devotion": {
+      "type": "att_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2109_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2109_l.png"
+    },
+    "ex_equip": [
+    ],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1.1,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.8,
+        "pow": 1.3,
+        "targets": 3,
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 3,
+        "penetration": 0.6,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13494,
+        "atk": 869,
+        "hp": 4639,
+        "spd": 99,
+        "def": 534,
+        "chc": 0.22999999999999998,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17057,
+        "atk": 1134,
+        "hp": 5825,
+        "spd": 99,
+        "def": 662,
+        "chc": 0.22999999999999998,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
   "Nemunas": {
     "code": "c3061",
     "_id": "nemunas",
@@ -17346,6 +19903,145 @@
         "dac": 0.03,
         "eff": 0,
         "efr": 0
+      }
+    }
+  },
+  "New Moon Luna": {
+    "code": "c2066",
+    "_id": "New Moon Luna",
+    "name": "New Moon Luna",
+    "moonlight": true,
+    "rarity": 5,
+    "attribute": "light",
+    "role": "mage",
+    "zodiac": "scales",
+    "self_devotion": {
+      "type": "max_hp_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2066_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2066_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 17685,
+        "atk": 1039,
+        "hp": 6034,
+        "spd": 124,
+        "def": 613,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17685,
+        "atk": 1039,
+        "hp": 6034,
+        "spd": 124,
+        "def": 613,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
+  "Ocean Breeze Luluca": {
+    "code": "c5082",
+    "_id": "ocean-breeze-luluca",
+    "name": "Ocean Breeze Luluca",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "wind",
+    "role": "manauser",
+    "zodiac": "twins",
+    "self_devotion": {
+      "type": "res",
+      "grades": {
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c5082_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c5082_l.png"
+    },
+    "ex_equip": [
+    ],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1,
+        "pow": 1,
+        "targets": 3,
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 15706,
+        "atk": 520,
+        "hp": 3972,
+        "spd": 105,
+        "def": 559,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0.3
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 19986,
+        "atk": 649,
+        "hp": 5254,
+        "spd": 105,
+        "def": 694,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0.3
       }
     }
   },
@@ -18009,6 +20705,74 @@
       }
     }
   },
+  "Pernilla": {
+    "code": "c3165",
+    "_id": "Pernilla",
+    "name": "Pernilla",
+    "moonlight": true,
+    "rarity": 3,
+    "attribute": "dark",
+    "role": "warrior",
+    "zodiac": "lion",
+    "self_devotion": {
+      "type": "att",
+      "grades": {
+        "D": 36,
+        "C": 54,
+        "B": 72,
+        "A": 90,
+        "S": 108,
+        "SS": 126,
+        "SSS": 144
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3165_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3165_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 11978,
+        "atk": 878,
+        "hp": 3899,
+        "spd": 101,
+        "def": 438,
+        "chc": 0.22999999999999998,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 15164,
+        "atk": 1144,
+        "hp": 4895,
+        "spd": 101,
+        "def": 543,
+        "chc": 0.22999999999999998,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
   "Pirate Captain Flan": {
     "code": "c2110",
     "_id": "pirate-captain-flan",
@@ -18322,6 +21086,74 @@
         "spd": 91,
         "def": 703,
         "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
+  "Ragnvald": {
+    "code": "c3164",
+    "_id": "Ragnvald",
+    "name": "Ragnvald",
+    "moonlight": false,
+    "rarity": 3,
+    "attribute": "ice",
+    "role": "assassin",
+    "zodiac": "lion",
+    "self_devotion": {
+      "type": "att",
+      "grades": {
+        "D": 36,
+        "C": 54,
+        "B": 72,
+        "A": 90,
+        "S": 108,
+        "SS": 126,
+        "SSS": 144
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3164_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3164_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 11477,
+        "atk": 828,
+        "hp": 3642,
+        "spd": 111,
+        "def": 398,
+        "chc": 0.22999999999999998,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 14563,
+        "atk": 1081,
+        "hp": 4572,
+        "spd": 111,
+        "def": 494,
+        "chc": 0.22999999999999998,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -19177,7 +22009,7 @@
         "cp": 11614,
         "atk": 833,
         "hp": 3128,
-        "spd": 110,
+        "spd": 114,
         "def": 489,
         "chc": 0.19,
         "chd": 1.5,
@@ -19200,7 +22032,7 @@
         "cp": 14932,
         "atk": 1039,
         "hp": 3925,
-        "spd": 110,
+        "spd": 114,
         "def": 606,
         "chc": 0.27,
         "chd": 1.5,
@@ -19218,6 +22050,74 @@
         "overrideAdditionalSpd": 0,
         "overrideAdditionalEff": 0,
         "overrideAdditionalRes": 0
+      }
+    }
+  },
+  "Revna": {
+    "code": "c3160",
+    "_id": "Revna",
+    "name": "Revna",
+    "moonlight": true,
+    "rarity": 3,
+    "attribute": "dark",
+    "role": "assassin",
+    "zodiac": "scorpion",
+    "self_devotion": {
+      "type": "att",
+      "grades": {
+        "D": 36,
+        "C": 54,
+        "B": 72,
+        "A": 90,
+        "S": 108,
+        "SS": 126,
+        "SSS": 144
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3160_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c3160_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 11607,
+        "atk": 833,
+        "hp": 4171,
+        "spd": 108,
+        "def": 364,
+        "chc": 0.22999999999999998,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 14773,
+        "atk": 1039,
+        "hp": 5517,
+        "spd": 108,
+        "def": 452,
+        "chc": 0.22999999999999998,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
       }
     }
   },
@@ -20297,7 +23197,7 @@
         "hp": 3385,
         "spd": 112,
         "def": 520,
-        "chc": 0.15,
+        "chc": 0.23,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -20309,7 +23209,7 @@
         "hp": 4248,
         "spd": 112,
         "def": 645,
-        "chc": 0.15,
+        "chc": 0.23,
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0,
@@ -20646,6 +23546,72 @@
       }
     }
   },
+  "Sea Phantom Politis": {
+    "code": "c2112",
+    "_id": "Sea Phantom Politis",
+    "name": "Sea Phantom Politis",
+    "moonlight": true,
+    "rarity": 5,
+    "attribute": "dark",
+    "role": "ranger",
+    "zodiac": "fish",
+    "self_devotion": {
+      "type": "max_hp_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2112_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2112_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 16999,
+        "atk": 797,
+        "hp": 4536,
+        "spd": 120,
+        "def": 492,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 21659,
+        "atk": 993,
+        "hp": 6002,
+        "spd": 120,
+        "def": 611,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
   "Seaside Bellona": {
     "code": "c5071",
     "_id": "seaside-bellona",
@@ -20670,7 +23636,26 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c5071_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc106601",
+        "id": "exc106601",
+        "name": "Dragon Emerald",
+        "description": "Jewelry that Luna's father passed on to her. It is the only thing her mother left behind when she left.",
+        "unit": "c1066",
+        "role": "warrior",
+        "rarity": 5,
+        "stat": {
+          "type": "att_rate",
+          "value": 0.07
+        },
+        "skills": [
+        ],
+        "assets": {
+          "icon": "https://assets.epicsevendb.com/_source/item/icon_eq_exclusive_c1066.png"
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -21386,6 +24371,73 @@
       }
     }
   },
+  "Shalltear": {
+    "code": "c1157",
+    "_id": "Shalltear",
+    "name": "Shalltear",
+    "moonlight": false,
+    "rarity": 5,
+    "attribute": "fire",
+    "role": "warrior",
+    "zodiac": "archer",
+    "self_devotion": {
+      "type": "cri",
+      "grades": {
+        "B": 0.056,
+        "A": 0.084,
+        "S": 0.112,
+        "SS": 0.14,
+        "SSS": 0.168
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1157_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1157_l.png"
+    },
+    "ex_equip": [
+    ],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 13380,
+        "atk": 945,
+        "hp": 4414,
+        "spd": 119,
+        "def": 446,
+        "chc": 0.19,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 17246,
+        "atk": 1177,
+        "hp": 5542,
+        "spd": 119,
+        "def": 553,
+        "chc": 0.27,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      }
+    }
+  },
   "Sharun": {
     "code": "c1132",
     "_id": "sharun",
@@ -21879,14 +24931,14 @@
     "role": "ranger",
     "zodiac": "maiden",
     "self_devotion": {
-      "type": "att_rate",
+      "type": "cri",
       "grades": {
-        "C": 0.04,
-        "B": 0.06,
-        "A": 0.08,
-        "S": 0.1,
-        "SS": 0.12,
-        "SSS": 0.14
+        "C": 0.042,
+        "B": 0.063,
+        "A": 0.084,
+        "S": 0.105,
+        "SS": 0.126,
+        "SSS": 0.147
       }
     },
     "assets": {
@@ -21940,6 +24992,108 @@
         "dac": 0.03,
         "eff": 0,
         "efr": 0
+      }
+    }
+  },
+  "Silvertide Christy": {
+    "code": "c4123",
+    "_id": "silvertide-christy",
+    "name": "Silvertide Christy",
+    "moonlight": false,
+    "rarity": 3,
+    "attribute": "wind",
+    "role": "knight",
+    "zodiac": "goat",
+    "self_devotion": {
+      "type": "res",
+      "grades": {
+        "D": 0.045,
+        "C": 0.068,
+        "B": 0.09,
+        "A": 0.112,
+        "S": 0.135,
+        "SS": 0.158,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c4123_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c4123_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 1.1,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "rate": 0,
+        "pow": 0,
+        "options": [
+          {
+            "name": "S3 heal",
+            "rate": 0,
+            "pow": 0,
+            "selfHpScaling": 0.12
+          }
+        ]
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 12320,
+        "atk": 534,
+        "hp": 4542,
+        "spd": 90,
+        "def": 603,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0.06,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 0,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 5,
+        "overrideAdditionalEff": 0.35,
+        "overrideAdditionalRes": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 15835,
+        "atk": 667,
+        "hp": 5784,
+        "spd": 90,
+        "def": 749,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0.18,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 0,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 5,
+        "overrideAdditionalEff": 0.35,
+        "overrideAdditionalRes": 0
       }
     }
   },
@@ -22163,7 +25317,7 @@
       "lv50FiveStarFullyAwakened": {
         "cp": 13219,
         "atk": 945,
-        "hp": 4253,
+        "hp": 4414,
         "spd": 119,
         "def": 446,
         "chc": 0.19,
@@ -22175,7 +25329,7 @@
       "lv60SixStarFullyAwakened": {
         "cp": 17044,
         "atk": 1177,
-        "hp": 5340,
+        "hp": 5542,
         "spd": 119,
         "def": 553,
         "chc": 0.27,
@@ -22452,7 +25606,21 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2050_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc107901",
+        "id": "exc107901",
+        "name": "Lucky Dice",
+        "description": "Dice used on the day Cermia won a once-in-a-lifetime jackpot. She holds onto them in hopes that they'll bring her that luck again one day.",
+        "unit": "c1079",
+        "role": "warrior",
+        "rarity": 5,
+        "stat": {
+          "type": "att_rate",
+          "value": 0.07
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -22715,7 +25883,7 @@
         "overrideAtk": 0,
         "overrideHp": 0,
         "overrideDef": 0,
-        "overrideAdditionalCr": 0.2,
+        "overrideAdditionalCr": 0.3,
         "overrideAdditionalCd": 0,
         "overrideAdditionalSpd": 0,
         "overrideAdditionalEff": 0,
@@ -22738,7 +25906,7 @@
         "overrideAtk": 0,
         "overrideHp": 0,
         "overrideDef": 0,
-        "overrideAdditionalCr": 0.2,
+        "overrideAdditionalCr": 0.3,
         "overrideAdditionalCd": 0,
         "overrideAdditionalSpd": 0,
         "overrideAdditionalEff": 0,
@@ -23254,7 +26422,21 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1127_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc107901",
+        "id": "exc107901",
+        "name": "Lucky Dice",
+        "description": "Dice used on the day Cermia won a once-in-a-lifetime jackpot. She holds onto them in hopes that they'll bring her that luck again one day.",
+        "unit": "c1079",
+        "role": "warrior",
+        "rarity": 5,
+        "stat": {
+          "type": "att_rate",
+          "value": 0.07
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -23718,7 +26900,26 @@
       "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
       "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2065_l.png"
     },
-    "ex_equip": [],
+    "ex_equip": [
+      {
+        "_id": "exc109501",
+        "id": "exc109501",
+        "name": "Soul Tailor",
+        "description": "A medal bestowed only to the most talented of tailors. As it is a family heirloom, Lilibet received it from her mother, with whom she has been separated from childhood.",
+        "unit": "c1095",
+        "role": "warrior",
+        "rarity": 5,
+        "stat": {
+          "type": "cri",
+          "value": 0.06
+        },
+        "skills": [
+        ],
+        "assets": {
+          "icon": "https://assets.epicsevendb.com/_source/item/icon_eq_exclusive_c1095.png"
+        }
+      }
+    ],
     "skills": {
       "S1": {
         "hitTypes": ["crit", "crushing", "normal", "miss"],
@@ -23776,13 +26977,13 @@
     "role": "mage",
     "zodiac": "crab",
     "self_devotion": {
-      "type": "coop",
+      "type": "acc",
       "grades": {
-        "B": 0.02,
-        "A": 0.03,
-        "S": 0.04,
-        "SS": 0.05,
-        "SSS": 0.06
+        "B": 0.09,
+        "A": 0.135,
+        "S": 0.18,
+        "SS": 0.225,
+        "SSS": 0.27
       }
     },
     "assets": {
@@ -23984,7 +27185,7 @@
         "cp": 13302,
         "atk": 984,
         "hp": 3481,
-        "spd": 115,
+        "spd": 119,
         "def": 534,
         "chc": 0.19,
         "chd": 1.5,
@@ -23996,7 +27197,7 @@
         "cp": 17151,
         "atk": 1228,
         "hp": 4370,
-        "spd": 115,
+        "spd": 119,
         "def": 662,
         "chc": 0.27,
         "chd": 1.5,
@@ -24431,6 +27632,102 @@
       }
     }
   },
+  "Urban Shadow Choux": {
+    "code": "c2101",
+    "_id": "urban-shadow-choux",
+    "name": "Urban Shadow Choux",
+    "moonlight": true,
+    "rarity": 5,
+    "attribute": "dark",
+    "role": "warrior",
+    "zodiac": "ram",
+    "self_devotion": {
+      "type": "max_hp_rate",
+      "grades": {
+        "B": 0.06,
+        "A": 0.09,
+        "S": 0.12,
+        "SS": 0.15,
+        "SSS": 0.18
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2101_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c2101_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.5,
+        "pow": 1,
+        "targets": 1,
+        "selfHpScaling": 0.10,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.5,
+        "pow": 1,
+        "targets": 1,
+        "selfHpScaling": 0.25,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 11377,
+        "atk": 789,
+        "hp": 4735,
+        "spd": 117,
+        "def": 514,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 0,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0.3,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 0,
+        "overrideAdditionalEff": 0,
+        "overrideAdditionalRes": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 14466,
+        "atk": 984,
+        "hp": 6266,
+        "spd": 117,
+        "def": 637,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0,
+        "bonusMaxAtkPercent": 0,
+        "bonusMaxDefPercent": 0,
+        "bonusMaxHpPercent": 0,
+        "overrideAtk": 0,
+        "overrideHp": 0,
+        "overrideDef": 0,
+        "overrideAdditionalCr": 0.3,
+        "overrideAdditionalCd": 0,
+        "overrideAdditionalSpd": 0,
+        "overrideAdditionalEff": 0,
+        "overrideAdditionalRes": 0
+      }
+    }
+  },
   "Verdant Adin": {
     "code": "c4143",
     "_id": "verdant-adin",
@@ -24519,6 +27816,79 @@
         "overrideAdditionalSpd": 5,
         "overrideAdditionalEff": 0.2,
         "overrideAdditionalRes": 0
+      }
+    }
+  },
+  "Veronica": {
+    "code": "c1150",
+    "_id": "veronica",
+    "name": "Veronica",
+    "moonlight": false,
+    "rarity": 4,
+    "attribute": "fire",
+    "role": "ranger",
+    "zodiac": "maiden",
+    "self_devotion": {
+      "type": "cri",
+      "grades": {
+        "C": 0.042,
+        "B": 0.063,
+        "A": 0.084,
+        "S": 0.105,
+        "SS": 0.126,
+        "SSS": 0.147
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1150_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c1150_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.7,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": ["crit", "crushing", "normal", "miss"],
+        "rate": 0.8,
+        "pow": 1,
+        "targets": 1,
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 12121,
+        "atk": 910,
+        "hp": 3739,
+        "spd": 121,
+        "def": 418,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 15378,
+        "atk": 1188,
+        "hp": 4693,
+        "spd": 121,
+        "def": 518,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
       }
     }
   },
@@ -24912,7 +28282,7 @@
         "cp": 13302,
         "atk": 984,
         "hp": 3481,
-        "spd": 115,
+        "spd": 119,
         "def": 534,
         "chc": 0.19,
         "chd": 1.5,
@@ -24924,7 +28294,7 @@
         "cp": 17151,
         "atk": 1228,
         "hp": 4370,
-        "spd": 115,
+        "spd": 119,
         "def": 662,
         "chc": 0.27,
         "chd": 1.5,
@@ -25127,6 +28497,73 @@
         "chd": 1.5,
         "dac": 0.03,
         "eff": 0.3,
+        "efr": 0
+      }
+    }
+  },
+  "Wandering Prince Cidd": {
+    "code": "c6014",
+    "_id": "Wandering Prince Cidd",
+    "name": "Wandering Prince Cidd",
+    "moonlight": true,
+    "rarity": 4,
+    "attribute": "light",
+    "role": "mage",
+    "zodiac": "fish",
+    "self_devotion": {
+      "type": "acc",
+      "grades": {
+        "C": 0.068,
+        "B": 0.102,
+        "A": 0.136,
+        "S": 0.17,
+        "SS": 0.204,
+        "SSS": 0.238
+      }
+    },
+    "assets": {
+      "icon": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c6014_s.png",
+      "image": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/question_circle.png",
+      "thumbnail": "https://raw.githubusercontent.com/fribbels/Fribbels-Epic-7-Optimizer/main/data/cachedimages/c6014_l.png"
+    },
+    "ex_equip": [],
+    "skills": {
+      "S1": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S2": {
+        "hitTypes": [],
+        "options": []
+      },
+      "S3": {
+        "hitTypes": [],
+        "options": []
+      }
+    },
+    "calculatedStatus": {
+      "lv50FiveStarFullyAwakened": {
+        "cp": 16087,
+        "atk": 818,
+        "hp": 4138,
+        "spd": 117,
+        "def": 491,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
+        "efr": 0
+      },
+      "lv60SixStarFullyAwakened": {
+        "cp": 16087,
+        "atk": 1021,
+        "hp": 5474,
+        "spd": 117,
+        "def": 610,
+        "chc": 0.15,
+        "chd": 1.5,
+        "dac": 0.03,
+        "eff": 0,
         "efr": 0
       }
     }
