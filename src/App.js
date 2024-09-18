@@ -5,16 +5,16 @@ import GW from './components/GW';
 import GS from './components/GS';
 import GWS from './components/GWS';
 
-import { Container } from '@mui/material'
+import { Container } from '@mui/material';
 
 function App() {
-  const [tab, setTab] = React.useState(0)
-  const [value, setValue] = React.useState('GS')
-  
+  const [tab, setTab] = React.useState(0);
+  const [value, setValue] = React.useState('GS');
+
   const handleChange = (e, newValue) => {
-    setTab(newValue)
+    setTab(newValue);
     setValue(e.target.id);
-  }
+  };
   return (
     <>
       <Tabs value={tab} onChange={handleChange}>
@@ -22,7 +22,7 @@ function App() {
         <Tab label="Guild War" id="GW" />
         <Tab label="Guild War Scout" id="GWS" />
       </Tabs>
-      <Container maxWidth={'xl'} sx={{mt: 5}}>
+      <Container maxWidth={'xl'} sx={{ mt: 5 }}>
         {value === 'GS' &&
           <GS />
         }

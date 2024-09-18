@@ -5,7 +5,7 @@ const GWS = () => {
         <>
             GW Scout stuff
         </>
-    )
-}
+    );
+};
 
 export default GWS;
