@@ -3,7 +3,6 @@ import './App.css';
 import React from 'react';
 import GW from './components/GW';
 import GS from './components/GS';
-import GWS from './components/GWS';
 
 import { Container } from '@mui/material';
 
@@ -20,7 +19,6 @@ function App() {
       <Tabs value={tab} onChange={handleChange}>
         <Tab label="Gear Score" id="GS" />
         <Tab label="Guild War" id="GW" />
-        <Tab label="Guild War Scout" id="GWS" />
       </Tabs>
       <Container maxWidth={'xl'} sx={{ mt: 5 }}>
         {value === 'GS' &&
@@ -28,9 +26,6 @@ function App() {
         }
         {value === 'GW' &&
           <GW />
-        }
-        {value === 'GWS' &&
-          <GWS />
         }
       </Container>
     </>
